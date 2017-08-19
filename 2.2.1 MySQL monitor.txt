@@ -1,0 +1,3 @@
+MySQL monitor:
+mysql -u root -p
+password:
