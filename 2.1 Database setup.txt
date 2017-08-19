@@ -1,0 +1,11 @@
+Creating database:
+mysql -u root -p
+create database market;
+exit
+
+Run migrations:
+php artisan migrate
+
+Check for tables:
+mysql> use market;
+show tables;
