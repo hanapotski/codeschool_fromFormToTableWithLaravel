@@ -1,0 +1,21 @@
+Using Tinker to Query the Database!
+php artisan tinker
+App\Market::all()
+- run a static class method
+- result is an empty collection
+
+Create new entry in the markets table:
+$data = ['name' => 'Orlando Farmers Market', 'city' => 'orlando', 'website' => 'orlandomarket.com']
+- structure data, know commands to use on the class to store data
+
+columns/keys = name, city, website
+values ^
+
+Create a new entry
+App\Market::create($data) => error, database protected, security
+
+Allow mass assignment with $fillable
+app/Market.php
+protected $fillable = ['name', 'city', 'website'];
+
+App\Market::all()
