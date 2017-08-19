@@ -1,2 +1,2 @@
 Run migrations:
-create database market
+create database market;
