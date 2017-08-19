@@ -1,0 +1,8 @@
+Running Migrations
+
+Now it is time to run our migrations! Which of the following commands would we use to run all migrations?
+
+php artisan migrate
+
+Help:
+php artisan help
