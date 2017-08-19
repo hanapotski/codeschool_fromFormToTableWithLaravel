@@ -1,12 +1,12 @@
- composer global require laravel/installer
+composer global require laravel/installer
 
- export PATH="~/.composer/vendor/bin:$PATH"
+export PATH="~/.composer/vendor/bin:$PATH"
 
- laravel new market
+laravel new market
 
- cd market
+cd market
 
- php artisan serve
+php artisan serve
 
 php artisan help make:model
 
